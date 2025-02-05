@@ -1,0 +1,193 @@
+.black-div{
+    gap: 20px;
+    padding-right: 20px;
+}
+
+.black-div>div{
+    color: rgb(155, 153, 153);
+    pad: 0 30px;
+    font-size: 14px;
+}
+
+nav{
+    height: 80px !important;
+}
+
+.huawei-logo{
+    width: 150px;
+}
+
+.button-carousell{
+    background-color: #850F12;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    
+}
+
+.button-carousell-div{
+    margin-bottom: 10%;
+    margin-left: 40%;
+}
+
+.button-carousell-div2{
+    margin-bottom: 15%;
+}
+
+.handfree-div-text{
+    color: white;
+    zoom: 80%;
+}
+
+.coloring-img:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.21),rgba(255, 255, 255, 0.226));
+    z-index: 1;
+}
+
+.handfree-div{
+    overflow: hidden;
+    
+}
+
+.handfree-div-text{
+    bottom: -10px;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    margin-left: 10px;
+}
+
+.section1-div{
+    gap: 20px 0;
+}
+
+.section2-button{
+    position: absolute;
+    background-color: #850F12;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    top: 50%;
+    left: 17%;
+}
+
+.news-span{
+    background-color: grey;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 60px;
+}
+
+.section3-button-div>button{
+    border: 1px solid black;
+    margin: 30px;
+    background-color: white;
+    padding: 5px 10px;
+}
+
+.section3-button-div>button:hover{
+    background-color: #850F12;
+    color: white;
+}
+
+.section4{
+    background-color: #F2F2F2;
+    padding: 20px 100px;
+}
+
+.home-search{
+    padding: 10px 0;
+   border-bottom: 1px solid rgb(189, 188, 188);
+}
+
+.section4-input{
+    width: 400px;
+    padding: 10px;
+}
+
+.huwaei-last{
+    padding: 30px 0;
+    border-top: 1px solid rgb(189, 188, 188);
+}
+
+.icons-items{
+    font-size: 30px;
+
+}
+
+.icons-items>i{
+    padding: 0 10px;
+    color: grey;
+}
+
+footer{
+    background-color: rgb(158, 158, 158);
+}
+
+@media only screen and (max-width:480px){
+    .handfree-div-text{
+        display: none;
+    }
+    .section4-input{
+        width: 200px;
+        padding: 2px !important;
+    }
+    
+    .home-div{
+        display: none;
+    }
+
+    .home-search{
+        justify-content: center !important;
+        padding: 10px;
+
+    }
+    .section4{
+        padding: 20px 0;
+    }
+    .huwae-cloud{
+        display: none;
+    }
+
+    .huwaei-last{
+        justify-content: center !important;
+        padding: 0%;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+
+    .section2-button, .button-carousell{
+        display: none;
+    }
+    
+    .huawei-logo{
+        width: 100px;
+    }
+
+    .coloring-img:before{
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        z-index: 1;
+    }
+
+    .last-part-section4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
