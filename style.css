@@ -17,6 +17,8 @@ nav{
     width: 150px;
 }
 
+
+
 .button-carousell{
     background-color: #850F12;
     border: none;
@@ -39,7 +41,7 @@ nav{
     zoom: 80%;
 }
 
-.coloring-img:before{
+/* .coloring-img:before{
     content: "";
     position: absolute;
     top: 0%;
@@ -47,6 +49,17 @@ nav{
     width: 100%;
     height: 100%;
     background: linear-gradient(45deg, rgba(128, 128, 128, 0.21),rgba(255, 255, 255, 0.226));
+    z-index: 1;
+} */
+
+.coloring-img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(128, 128, 128, 0.21), rgba(255, 255, 255, 0.226));
     z-index: 1;
 }
 
@@ -168,20 +181,9 @@ footer{
         display: none;
     }
     
-    .huawei-logo{
+    /* .huawei-logo{
         width: 100px;
-    }
-
-    .coloring-img:before{
-        content: "";
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        width: 100%;
-        height: 100%;
-        background: transparent;
-        z-index: 1;
-    }
+    } */
 
     .last-part-section4{
         flex-direction: column;
@@ -190,4 +192,48 @@ footer{
         text-align: center;
     }
     
+    .remove-in-media, .fa-magnifying-glass{
+        display: none;
+    }
+
+    .section2{
+        padding: 0 30px;
+    }
+
+    nav{
+        zoom: 70%;
+    }
+
+    .collapse.navbar-collapse{
+        z-index: 5;
+        background-color: white;
+        padding: 0 20px;
+        box-shadow: 0 5px 15px grey;
+    }
+
+    .mediashow{
+        display: block !important;
+    }
+
+    .button-carousell01{
+        background-color: #850F12;
+        border: none;
+        color: white;
+        width: 40%;
+        padding: 5px 0;
+        position: absolute;
+        left: 30%;
+        bottom: 10%;
+    }
+
+    .button-carousell02{
+        background-color: #850F12;
+        border: none;
+        color: white;
+        width: 40%;
+        padding: 5px 0;
+        position: absolute;
+        left: 30%;
+        top: 40%;
+    }
 }
