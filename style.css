@@ -17,7 +17,9 @@ nav{
     width: 150px;
 }
 
-
+/* .carousel-mob{
+    display: none;
+} */
 
 .button-carousell{
     background-color: #850F12;
@@ -25,6 +27,28 @@ nav{
     color: white;
     padding: 10px 50px;
     
+}
+
+.button-carousell01{
+    background-color: #850F12;
+    border: none;
+    color: white;
+    width: 40%;
+    padding: 5px 0;
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+}
+
+.button-carousell02{
+    background-color: #850F12;
+    border: none;
+    color: white;
+    width: 40%;
+    padding: 5px 0;
+    position: absolute;
+    left: 30%;
+    top: 40%;
 }
 
 .button-carousell-div{
@@ -215,25 +239,9 @@ footer{
         display: block !important;
     }
 
-    .button-carousell01{
-        background-color: #850F12;
-        border: none;
-        color: white;
-        width: 40%;
-        padding: 5px 0;
-        position: absolute;
-        left: 30%;
-        bottom: 10%;
-    }
+    
 
-    .button-carousell02{
-        background-color: #850F12;
-        border: none;
-        color: white;
-        width: 40%;
-        padding: 5px 0;
-        position: absolute;
-        left: 30%;
-        top: 40%;
-    }
+    /* .carousel-media {
+        display: block;
+    } */
 }
